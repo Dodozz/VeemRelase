@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="w2.css" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h5>Dodoz<span>Dev</span></h5>
+        </div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="Veem.html">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="bar">
+          <div class="bar-1"></div>
+          <div class="bar-2"></div>
+          <div class="bar-3"></div>
+        </div>
+      </nav>
+    </header>
+    <div class="banner">
+      <div class="wrapper">
+        <div class="content">
+          <h2>How to <span>Beam</span> a roblox Account?</h2>
+          <p>
+            For successful beaming to a user it is necessary to follow a series
+            of steps that are quite simple. You can watch the video just below!
+          </p>
+          <br /><br /><br />
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/giVq_wIpPlk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="ffe">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <script>
+      const sidenav = () => {
+        const menu = document.querySelector(".bar");
+        const nav = document.querySelector(".menu");
+
+        menu.addEventListener("click", () => {
+          menu.classList.toggle("bar-active");
+          nav.classList.toggle("nav-active");
+        });
+      };
+      sidenav();
+    </script>
+  </body>
+</html>
